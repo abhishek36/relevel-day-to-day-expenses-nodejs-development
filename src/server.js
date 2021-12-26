@@ -17,12 +17,12 @@ const PORT = process.env.PORT || 8000; // port at which server listening
 // import routes
 let authRouter = require('../src/routes/auth.routes');
 
-// import other routes projects logTime 
+// import other routes transaction
 
 // define root routes.
 app.use('/authentication', authRouter);
 
-// define other routes projects logTime 
+// define other routes transaction
 
 app.listen(
   PORT,
